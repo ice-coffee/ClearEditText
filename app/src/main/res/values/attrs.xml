@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ClearEditText 注意:貌似必须加"format='enum'"-->
+    <declare-styleable name="text">
+        <attr name="hint" format="string" />
+        <attr name="inputType" format="enum">
+            <enum name="string" value="0" />
+            <enum name="number" value="1" />
+            <enum name="textPassword" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
